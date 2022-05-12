@@ -1,0 +1,120 @@
+#doDontSection{
+    padding:68px 0;
+    background-color: #F7F9FE;
+    position: relative;
+}
+/*====== header text ======*/
+#doDontSection .text-head h5{
+    color: #2a81ea;
+    text-align: center;
+    font-weight: 900;
+ }
+ #doDontSection .text-head h1{
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+ } 
+ #doDontSection .text-head p{
+   text-align: center;
+}
+ @media (max-width: 900px) {
+    #doDontSection .text-head h1{
+       text-align: center;
+       padding: 20px;
+     }
+}
+/*====== end header text ======*/
+/*====== allcards ======*/
+  /*==== globl allcards ====*/
+#doDontSection .cardBody {
+   position: relative;
+   margin: 92px 32px;
+}
+#doDontSection .cardBody img{
+   position:absolute;
+   border: solid 2px #2a81ea;
+   border-radius: 50%;
+   width: 80px;
+   background-color: white;
+}
+#doDontSection .cardBody i{
+   position:absolute;
+   font-size: 20px;
+   z-index: 2;
+}
+#doDontSection .cardBody p{
+   color: #2a81ea;
+   font-weight: bold;
+   font-size: 14px;
+ }
+/*==== end globl allcards ====*/
+#doDontSection .left .cardBody {
+   text-align: right;
+}
+#doDontSection .right .cardBody {
+   text-align: left;
+}
+#doDontSection .left .cardBody img{
+   left:250px;
+   top:-30px;
+}
+#doDontSection .right .cardBody img{
+   left:-100px;
+   top:-31px;
+}
+#doDontSection .left .cardBody i{
+   left:243px;
+   top:-34px;
+   color: red;
+}
+#doDontSection .right .cardBody i{
+   left:-29px;
+   top:-36px;
+   color: rgba(28, 206, 5, 0.932);
+
+}
+@media (max-width: 900px) {
+   #doDontSection .col-6{
+      order: 2;
+    }
+   #doDontSection .cardBody {
+      margin: 88px 11px !important;
+  }
+   #doDontSection .cardBody img{
+      width: 50px !important;
+      height: 50px !important;
+   }
+   #doDontSection .left .cardBody {
+      text-align: left !important;
+   }
+   #doDontSection .right .cardBody {
+      text-align: right !important;
+   }
+   #doDontSection .left .cardBody i {
+      left: 123px;
+      top: -23px;
+  }
+  #doDontSection .left .cardBody img {
+   left: 122px;
+   top: -12px;
+}
+#doDontSection .right .cardBody i {
+   left: 13px!important;
+   top: -21px!important;
+}
+#doDontSection .right .cardBody img {
+   left: -23px!important;
+   top: -15px !important;
+}
+#doDontSection .right .cardBody p {
+   font-weight: 900;
+   font-size: 12px;
+}
+#doDontSection .left .cardBody p {
+   font-weight: 900;
+   font-size: 12px;
+}
+}
+/*==== end allcards ====*/

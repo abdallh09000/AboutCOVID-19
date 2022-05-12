@@ -1,0 +1,64 @@
+/*=======globl in about Section========*/
+#aboutSection{
+    padding:68px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*===============*/
+/*=======nav table========*/
+#aboutSection div table{
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.219);
+}
+#aboutSection div table thead th {
+    color: #465675;
+    font-size: 20px;
+    text-align: center;
+}
+#aboutSection div table tbody th {
+    padding-left: 34px;
+    padding-right: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: unset !important;
+}
+#aboutSection div table tbody th a i{
+    float: right;
+    color: #2a81ea;
+    font-size: 20px;
+}
+#aboutSection div table tbody th a{
+   text-decoration: none;
+   color: #2a81ea;
+}
+#aboutSection div table tbody th a:hover{
+    text-decoration: none;
+    color: #2a81ea;
+ }
+ /*========end nav table========*/
+  /*========header text========*/
+ #aboutSection div h5{
+    color: #2a81ea;
+ }
+ #aboutSection div h1{
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+ }
+/*========end header text========*/
+#aboutSection div p span{
+   font-size: 19px;
+  color: #3d4b69;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Responsive Design*/
+@media (max-width: 900px) {
+    #aboutSection div h1{
+       text-align: center;
+       padding: 20px;
+     }
+     #aboutSection div h5{
+        text-align: center;
+     }
+     #aboutSection div p{
+        text-align: center;
+     }
+}
+ 

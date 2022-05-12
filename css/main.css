@@ -1,0 +1,38 @@
+/*globl for index.html*/
+*{
+    scroll-behavior:smooth;
+}
+.container{
+    max-width: 1320px;
+ }
+ /*upBtn*/
+.upBtn{
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    border: none;
+}
+.disblayNone{
+display: none;
+}
+/*upBtn*/
+.active{
+    color:  #0275d8 !important;
+    transition: 500ms;
+}
+.activebtn{
+    border: solid 2px #2a81ea !important;
+    color: #2a81ea !important;
+}
+.trans{
+    background-color: rgba(0, 0, 0, 0) !important;
+    transition: 1s;
+}
+.isopen{
+    background-color: white !important;
+    color: #2a81ea  !important;
+    border-color:white ;
+    transition: 500ms;
+    }
+ /*=====================*/

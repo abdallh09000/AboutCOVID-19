@@ -1,0 +1,77 @@
+footer{
+    background-color: #151c2e;
+    background-image: url(../img/home-backImg.png);
+    color: #b2bfe0;
+    padding: 50px;
+}
+/*logo CSS */
+footer h3{
+    color: white;
+    font-weight: 900;
+    margin-left: 60px;
+}
+@media (max-width: 900px) {
+    footer {
+        margin-left: 0;
+    }
+}
+footer h3 i{
+  color: red;
+  margin: 0;
+}
+footer h3 span{
+    color: #485e88;
+}
+/*========logo CSS end=======*/
+/*SM icon*/
+footer i{
+    font-size: 22px;
+    color: white;
+    margin: 0 10px;
+}
+footer i:hover{
+    color: #485e88;
+}
+/*end SM icon*/
+/*all list in footer style*/
+footer ul li{
+    list-style-type:none;
+    text-align: justify;
+    margin: 20px 0;
+}
+footer ul li h5{
+    color: white;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #b2bfe0;
+}
+footer ul li a:hover{
+    text-decoration: none;
+}
+footer .end-footer span{
+    color: white;
+}
+footer .end-footer{
+    border-top: solid 1px #485e88;
+    margin-top: 50px;
+    padding: 50px;
+}
+@media (max-width: 900px) {
+    footer {
+        padding: 20px;
+    }
+    footer h3{
+        color: white;
+        font-weight: 900;
+        margin-left: 0;
+    }
+    footer .col-12{
+        border-top: solid 1px #485e88;
+        padding: 30px;
+    }
+    footer .end-footer{
+        font-size: 13px;
+    }
+}
+/*end all list in footer style*/

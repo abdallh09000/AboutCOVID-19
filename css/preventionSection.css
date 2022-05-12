@@ -1,0 +1,65 @@
+/*globl for prevention Section*/
+#preventionSection{
+    padding:68px 0;
+    background-color: #F7F9FE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*========================*/
+/*====== header text ======*/
+#preventionSection .text-head h5{
+    color: #2a81ea;
+    text-align: center;
+    font-weight: 900;
+ }
+ #preventionSection div .text-head h1{
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+ } 
+ #preventionSection div .text-head p{
+   text-align: center;
+}
+ @media (max-width: 900px) {
+    #preventionSection div .text-head h1{
+       text-align: center;
+       padding: 20px;
+     }
+}
+ /*====== end header text ======*/
+/*====== card body ======*/
+#preventionSection div .cardBody{
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-align: center;
+ }
+ #preventionSection div .cardBody img{
+    position: absolute;
+    width:120px;
+    border-radius: 50%;
+    right : 112px ;
+     top  :  -147px;
+ }
+ #preventionSection div .cardBody h5{
+    font-size: 16px;
+    font-weight: bold;
+ }
+ /*====== end card body ======*/
+ /*========= nav tags ========*/
+ #preventionSection .gotoBtn{
+    text-align: center;
+  }
+ #preventionSection .gotoBtn a{
+   text-decoration: none ;
+   margin: 10px 0;
+   font-size: 20px;
+   font-family:'Oswald', sans-serif; 
+ }
+ #preventionSection .gotoBtn .btn{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 50px;
+ }
+/*========== end nav tags==========*/

@@ -1,0 +1,29 @@
+#treatmentSection{
+    background-image: url("../img/home-backImg.png");
+    background-color: #2766bb;
+    background-size: cover;
+    color: white;
+    padding: 60px;
+ }
+/*========header text========*/
+#treatmentSection div h5{
+    color: #73e3ff;
+ }
+#treatmentSection div h1{
+    font-family: 'Oswald', sans-serif;
+ }
+/*========end header text========*/
+#treatmentSection .box{
+    background-color: #1b47a1;
+    padding:30px;
+    border-radius: 10px;
+}
+#treatmentSection .box ul li{
+    margin: 10px 0;
+    list-style-type: none;
+}
+@media (max-width: 900px) {
+    #treatmentSection {
+       padding: 10px 0;
+     }
+}

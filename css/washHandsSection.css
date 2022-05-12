@@ -1,0 +1,49 @@
+ /*globl for home Section*/
+#washHandsSection {
+   background-color: #F7F9FE;
+padding: 40px; 
+}
+ /*========================*/
+/*====== header text ======*/
+#washHandsSection .text-head{
+text-align: center;
+}
+#washHandsSection .text-head h3{
+    color: #50658e;
+    font-size: 30px;
+}
+#washHandsSection .text-head a{
+    color: #2a81ea;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+ } 
+/*====== end header text ======*/
+#washHandsSection .cardBody{
+    text-align: center;
+    margin: 80px 30px;
+}
+#washHandsSection .cardBody img{
+border-radius: 50%;
+width: 160px;
+}
+#washHandsSection .cardBody h6{
+    color: #46536d;
+    font-weight: bold;
+}
+@media (max-width: 900px) {
+    #symptomsSection div h1{
+       text-align: center;
+       padding: 20px;
+     }
+     #washHandsSection {
+     padding: 0; 
+     }
+     #washHandsSection .cardBody img{
+        width: 140px;
+        margin-bottom: 10px;
+        }
+        #washHandsSection .cardBody{
+            margin: 27px 14px;
+        }
+}

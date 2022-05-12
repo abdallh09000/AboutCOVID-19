@@ -1,0 +1,105 @@
+/*globl for navbar*/
+.navbar{
+   font-family: Arial, Helvetica, sans-serif;
+background-color:white;
+}
+/*=====================*/
+/*========== navbar item ===========*/
+.navbar div{
+    margin:0 100px;
+    
+}
+.navbar button{
+    color: #015094 !important;
+    font-size: 30px;
+    border: unset;
+}
+.navbar div ul li a{
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    margin: 0 3px;
+    transition: 500ms;
+}
+.navbar div ul li a:hover{
+    color:  #0275d8 !important;
+    transition: 1s;
+}
+.navbar div ul li button{
+    border-radius: 50px;
+    color: white !important;
+    font-size: 20px;
+    padding: 10px;
+}
+/*========= end navbar item ============*/
+/*logo CSS */
+
+.navbar h3,.toggleDivItem h3{
+    color: #394B6C;
+    font-weight: 900;
+    margin-left: 60px;
+}
+@media (max-width: 900px) {
+    .navbar h3 ,.toggleDivItem h3{
+        margin-left: 0;
+    }
+}
+.navbar h3 i,.toggleDivItem h3 i{
+  color: red;
+}
+.navbar h3 span,.toggleDivItem h3 span{
+    color: #485e88;
+}
+/*========logo CSS end=======*/
+/*======== navBar toggle (for mobile) =======*/
+#toggleDiv{
+    background-color: #325caf52;
+    position: fixed;
+    z-index: 1000000000000000;
+    width: 100%;
+    height: 100%;
+}
+
+#toggleDiv #closeToggleDiv{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    font-size: 50px;
+    transition: 1s;
+}
+#toggleDiv #closeToggleDiv:hover{
+
+    color: #0275d8;
+    font-size: 50px;
+    transition: 1s;
+}
+/*======== end navBar toggle (for mobile) =======*/
+/*======== navBar toggle Item =======*/
+.toggleDivItem{
+    background-color: white;
+    width: 25%;
+    height: 100%;
+
+}
+@media (max-width: 900px) {
+    .toggleDivItem{      
+        width: 50%;
+    
+    }
+}
+ .toggleDivItem ul li a{
+ color: rgb(65, 65, 65);
+ font-weight: bold;
+ margin: 0 3px;
+ transition: 500ms;
+ margin-left: 15px;
+}
+ .toggleDivItem ul li a:hover{
+ color:  #0275d8 !important;
+ transition: 500ms;
+}
+.toggleDivItem ul li button{
+ border-radius: 50px;
+ font-size: 20px;
+}
+/*======== end navBar toggle Item =======*/

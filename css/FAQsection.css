@@ -1,0 +1,63 @@
+/*====== header text ======*/
+#FAQsection .text-head h5{
+    color: #2a81ea;
+    text-align: center;
+    font-weight: 900;
+ }
+ #FAQsection .text-head h1{
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+ } 
+ @media (max-width: 900px) {
+    #FAQsection .text-head h1{
+       text-align: center;
+       padding: 20px;
+     }
+     
+}
+/*====== end header text ======*/
+/*====== Q show ======*/
+#FAQsection .ShowDiv{
+    border: 2px solid #e7e8ff;
+    border-radius: 7px;
+    color: #50658e;
+    padding: 20px;
+}
+#FAQsection .ShowDiv:hover{
+    border: solid 2px #2a81ea;
+    color: #2a81ea;
+}
+#FAQsection .ShowDiv i{
+    float: right;
+}
+#FAQsection .accordion .card .card-header{
+    background-color: #e7e8ff;
+    color: #465675;
+    font-weight: bold;
+    transition: background 500ms ;
+}
+#FAQsection .accordion .card .card-header button{
+float: right;
+background-color: white;
+border-radius: 50%;
+
+}
+#FAQsection .accordion .card .card-header h5{
+    font-size: 16px;
+}
+#FAQsection .accordion .card .card-header:hover,#FAQsection .accordion .card .card-header button:hover{
+    color: #2a81ea ;
+}
+#FAQsection .accordion .card .card-body span{
+    color: #2a81ea;
+}
+@media (max-width: 900px) {
+     #FAQsection .accordion {
+        margin-top: 50px;
+     }
+}
+/*====== end Q show ======*/
+

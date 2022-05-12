@@ -1,0 +1,102 @@
+ /*globl for symptoms Section*/
+#symptomsSection{
+    padding:68px 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*============================*/
+ /*====== header text ======*/
+#symptomsSection div .text-head h5{
+    color: #2a81ea;
+    text-align: center;
+    font-weight: 900;
+ }
+ #symptomsSection div h1{
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+ } 
+ #symptomsSection div .text-head p{
+   text-align: center;
+}
+ @media (max-width: 900px) {
+    #symptomsSection div h1{
+       text-align: center;
+       padding: 20px;
+     }
+}
+ /*====== end header text ======*/
+ /*====== card body ======*/
+#symptomsSection div .cardBody{
+   position: relative;
+   background-color: white;
+   box-shadow: 0px 5px 40px 3px rgb(80,101,142,.1);
+   margin: 60px 0;
+   width: 450px;
+   padding:10px 50px;
+}
+@media (max-width: 900px) {
+   #symptomsSection div .cardBody{
+      width: 367px;
+
+   }
+    
+}
+#symptomsSection div .cardBody img{
+   position: absolute;
+   width:80px;
+   border-radius: 50%;
+   right : 15px ;
+    top  :  -40px;
+}
+#symptomsSection div .cardBody h5{
+   color:#2a81ea;
+}
+#symptomsSection div .cardBody p{
+   color:#3d4b69;
+   
+}
+/*====== end card body ======*/
+/*====== attention sigen ======*/
+#symptomsSection .attention{
+   position: relative;
+}
+#symptomsSection .attention span{
+   color:#2a81ea;
+   font-size: 60px;
+   position: absolute;
+   left:-16px;
+   top:-29px;
+}
+#symptomsSection .attention p b{
+   color:#2a81ea;
+}
+#symptomsSection .attention p{
+   margin-left: 56px;
+   width: 58%;
+}
+#symptomsSection .attention a{
+   position: absolute;
+   right:5px;
+   top:14px;
+   border-radius: 50px;
+   font-size: 18px;
+}
+@media (max-width: 900px) {
+   #symptomsSection .attention span{
+      font-size: 49px;
+      left:2px;
+      top:-11px;
+   }
+   #symptomsSection .attention a{
+      right:34px;
+      top:178px;
+   }
+   #symptomsSection .attention p{
+      margin-left: 66px;
+      width: 83%;
+   }
+}
+/*====== end attention sigen ======*/

@@ -1,0 +1,52 @@
+ /*globl for transmission Section*/
+#transmissionSection{
+    padding:68px 0;
+    background-color: #F7F9FE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /*========================*/
+ /*====== header text ======*/
+#transmissionSection div .text-head h5{
+    color: #2a81ea;
+    text-align: center;
+    font-weight: 900;
+ }
+ #transmissionSection div h1{
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-align: center;
+ } 
+ @media (max-width: 900px) {
+    #transmissionSection div h1{
+       text-align: center;
+       padding: 20px;
+     }
+     #transmissionSection div .text-head p{
+        text-align: center;
+     }
+}
+/*====== end header text ======*/
+/* =========== card =========*/
+#transmissionSection .card-t .image img{
+    width: 100%;
+    height: 100%;
+}
+#transmissionSection .card-t .img-body{
+    background-color: white;
+    border-top: solid 5px #2a80ea8c; 
+    padding: 10px;
+}
+#transmissionSection .card-t .img-body h5{
+    color: #2a81ea; 
+}
+#transmissionSection .card-t .img-body p{
+    color: #3d4b69 ;
+    font-size: 16px;
+}
+#transmissionSection a{
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 40px auto;
+}
+/* =========== end card =========*/

@@ -1,0 +1,60 @@
+ /*globl for newsSection Section*/
+ #newsSection{
+    padding:68px 0;
+    background-color: #F7F9FE;
+}
+/*============================*/
+/*====== header text ======*/
+#newsSection div .text-head h5{
+    color: #2a81ea;
+    text-align: center;
+    font-weight: 900;
+ }
+ #newsSection div .text-head h1{
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 25px;
+ } 
+ @media (max-width: 900px) {
+    #newsSection div .text-head h1{
+       text-align: center;
+       padding: 20px;
+     }
+}
+ /*====== end header text ======*/
+ /* =========== card =========*/
+ #newsSection .card-t .image{
+  padding: 30px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px 10px 0  0;
+}
+#newsSection .card-t .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#newsSection .card-t .img-body{
+    border-radius: 0 0 10px  10px;
+    background-color: white;
+    padding: 10px;
+}
+#newsSection .card-t .img-body h5{
+    color: #3d4b69 ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#newsSection .card-t .img-body p{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+#newsSection a{
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 40px auto;
+}
+/* =========== end card =========*/
